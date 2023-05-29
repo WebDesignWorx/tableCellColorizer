@@ -31,13 +31,25 @@ To use the tableCellColorizer plugin, follow these steps:
 
    ```javascript
    $(document).ready(function() {
-     $('table').tableCellColorizer({
+     $('.mytable').tableCellColorizer({
        wordsToStyles: wordsToStyles,
      });
    });
    ```
 
    This will colorize the table cells based on the defined words and their styles.
+   
+   It is also possible to apply the plugin to **all tables**...
+      ```javascript
+     $('table').tableCellColorizer({
+       wordsToStyles: wordsToStyles,
+     });
+   ``` 
+   or in tables you want to address based on their parent div.
+      ```javascript
+     $('div.class-name').tableCellColorizer({
+       wordsToStyles: wordsToStyles,
+     });
 
 ## Plugin author
 Christian M. Stefan [https://github.com/WebDesignWorx] (Stefek)

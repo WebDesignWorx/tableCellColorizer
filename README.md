@@ -31,9 +31,7 @@ To use the tableCellColorizer plugin, follow these steps:
 
    ```javascript
    $(document).ready(function() {
-     $('.mytable').tableCellColorizer({
-       wordsToStyles: wordsToStyles,
-     });
+     $('.mytable').tableCellColorizer(wordsToStyles);
    });
    ```
 
@@ -41,15 +39,11 @@ To use the tableCellColorizer plugin, follow these steps:
    
    It is also possible to apply the plugin to **all tables**...
       ```javascript
-     $('table').tableCellColorizer({
-       wordsToStyles: wordsToStyles,
-     });
+     $('table').tableCellColorizer(wordsToStyles);
    ``` 
    or in tables you want to address based on their parent div.
       ```javascript
-     $('div.class-name').tableCellColorizer({
-       wordsToStyles: wordsToStyles,
-     });
+     $('div.class-name').tableCellColorizer(wordsToStyles);
 
 ## Plugin author
 Christian M. Stefan [https://github.com/WebDesignWorx] (Stefek)

@@ -28,7 +28,7 @@ Dadurch wird festgelegt, wie die Tabellenzellen eingefärbt werden sollen.
    };
    ```
 
-2. Wenden Sie das Plugin auf die gewünschten Tabellen mit der Methode `tableCellColorizer` an.
+2. Wende das Plugin auf die gewünschten Tabellen mit der Methode `tableCellColorizer` an.
 
    ```javascript
    $(document).ready(function() {
@@ -38,7 +38,7 @@ Dadurch wird festgelegt, wie die Tabellenzellen eingefärbt werden sollen.
 
    Dadurch werden die Tabellenzellen basierend auf den definierten Wörtern und Stilen eingefärbt.
    
-   Sie können das Plugin auch auf **alle Tabellen** anwenden...
+   Du kannst das Plugin auch auf **alle Tabellen** anwenden...
       ```javascript
      $('table').tableCellColorizer(Begriff_zu_Stil);
    ``` 
